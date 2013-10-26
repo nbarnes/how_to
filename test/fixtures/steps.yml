@@ -1,0 +1,29 @@
+find:
+  name: Find a rabbit
+  description: First, find a rabbit.
+  ordinality: 1
+  recipe: rabbitstew
+
+cook:
+  name: Cook a rabbit
+  description: Second, cook the rabbit.
+  ordinality: 2
+  recipe: rabbitstew
+
+famine:
+  name: Famine
+  description: First, you want everybody hungry
+  ordinality: 1
+  recipe: revolution
+
+discontent:
+  name: Discontent
+  description: Second, you want the rabble angry.
+  ordinality: 2
+  recipe: revolution
+
+firepower:
+  name: Firepower
+  description: Thirdly, add weapons.
+  ordinality: 3
+  recipe: revolution
