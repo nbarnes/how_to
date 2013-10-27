@@ -1,7 +1,8 @@
 rabbitstew:
   name: Rabbit Stew
-  description: A classic recipe for rabbit stew
 
 revolution:
   name: A recipe for revolution
-  description: How to lose friends and empires
+
+onestep:
+  name: A one-step dance

@@ -1,9 +1,9 @@
 class Step < ActiveRecord::Base
-  attr_accessible :description, :name, :ordinality
+  attr_accessible :instruction, :ordinality
 
   belongs_to :recipe
 
-  validates :name, :presence => true
+  validates :instruction, :presence => true
   validates :ordinality, :presence => true
 
 end
